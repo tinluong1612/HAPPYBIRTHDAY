@@ -628,10 +628,9 @@ body {
         padding: 0 20px;
     }
 
-   .left .title .hat{
-    /* width: 10px; */
-     /* padding-left: 20px; */
-     
+    .title .hat{
+        margin-top: -10px;
+        margin-right: -35px;
     }
 
     .content .right{
@@ -713,7 +712,7 @@ body {
     }
 
     .right .box__account .name{
-        padding: 0 15px;
+        padding: 0 10px;
     }
 
     .right .box__account{
@@ -734,6 +733,10 @@ body {
             height: 55%;
     }
 
+    .letter__border .letter .title__letter {
+        font-size: 30px;
+    }
+
     .content__letter .left #heart__letter{
         width: 150%;
         margin: 0 0 20px -33px;
@@ -746,7 +749,7 @@ body {
 
     .content__letter .right .love__img .rps_love__img {
         width: 80%;
-        margin: 30px;
+        margin: 35px 30px 30px 55px;
     }
 
     .content__letter .right .text__letter {
