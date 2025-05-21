@@ -613,14 +613,25 @@ body {
 
 /* REPONSIVE MOBILE */
 @media only screen and (max-width: 46.1875em) {
+
+    #wrapper {
+        height: 142%;
+    }
+
     .content .left{
         width: 100%;
         /* font-size: 100%; */
     }
 
     .left .title{
-        font-size: 250%;
+        font-size: 200%;
         padding: 0 20px;
+    }
+
+   .left .title .hat{
+    /* width: 10px; */
+     /* padding-left: 20px; */
+     
     }
 
     .content .right{
@@ -637,6 +648,56 @@ body {
         width: 320px;
         height: 320px;
     };
+
+    .decorate_star{
+    position: absolute;
+    transform: scale(0);
+    background-color: var(--color-black);
+    clip-path: polygon(0 50%, 35% 35%, 50% 0, 65% 35%, 100% 50%, 65% 65%, 50% 100%, 35% 65%);
+    animation: scaleCricle 3s var(--t) forwards, 
+            scaleStar 2s 16s infinite ease-in-out;
+    }
+
+    .decorate_star.star1{
+        top: 55px;
+        right: 260px;
+    } 
+
+    .decorate_star.star2{
+        top: 20px;
+        right: 330px;
+    }   
+
+    .decorate_star.star3{
+        top: 100px;
+        left: 170px;
+    } 
+
+    .decorate_star.star4{
+        top: 437px;
+        left: 80px;
+    }
+
+    .decorate_star.star5{
+        top: 400px;
+        left: 315px;
+    } 
+
+    .decorate_flower--one {
+      top: 273px;
+      left: 15px;
+}
+
+    .decorate_flower--two {
+      top: 20px;
+      left: 145px;
+}
+
+    .decorate_flower--three {
+      top: 500px;
+      left: 330px;
+}
+
 
     .date__of__birth, .name{
         padding: 0 10px;
