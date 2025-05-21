@@ -715,6 +715,10 @@ body {
         padding: 0 8px;
     }
 
+    .date__of__birth span, .name span {
+        margin: 0px 30px;
+    }
+
     .right .box__account{
     /* width: 100%; */
     position: relative;
