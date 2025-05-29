@@ -685,17 +685,17 @@ body {
     .decorate_flower--one {
       top: 273px;
       left: 15px;
-}
+    }
 
     .decorate_flower--two {
       top: 20px;
       left: 145px;
-}
+    }
 
     .decorate_flower--three {
       top: 500px;
       left: 330px;
-}
+    }
 
 
     .date__of__birth, .name{
@@ -724,7 +724,7 @@ body {
     position: relative;
     transform: translateY(1000px);
     animation: topBoxImage 8s 7s forwards ease-in;
-}
+    }
 @keyframes topBoxImage{
     to{
         transform: translateY(135%);
@@ -744,7 +744,30 @@ body {
     .content__letter .left #heart__letter{
         width: 150%;
         margin: 0 0 20px -33px;
-        padding-top: 50px;
+        padding-top: 100px;
+    }
+
+    .content__letter .left .heart_1{
+
+    }
+
+    .content__letter .left .heart_2{
+        top: 50px;   
+    }
+
+    .content__letter .left .heart_3{
+        bottom: 280px;
+        left: 100px;
+    }
+
+    .content__letter .left .heart_4{
+        top: 290px;
+        
+    }
+
+    .content__letter .left .heart_5{
+        top: 280px;
+        left: 10px;
     }
 
 
