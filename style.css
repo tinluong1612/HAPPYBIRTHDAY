@@ -353,7 +353,7 @@ body {
 .right .balloon_two{
     position: absolute;
     top: 170px;
-    right: -65px;
+    right: -55px;
     z-index: -1;
     transform: rotate(10deg);
     animation: balloon2 2s infinite linear;
